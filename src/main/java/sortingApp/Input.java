@@ -3,7 +3,7 @@ package sortingApp;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class InputClass {
+public class Input {
 
     public static ArrayList<Integer> inputArray() {
         Scanner scanner = new Scanner(System.in);
