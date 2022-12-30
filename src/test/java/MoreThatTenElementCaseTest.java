@@ -32,6 +32,7 @@ public class MoreThatTenElementCaseTest extends Sorting {
 
     @Test(expected = IllegalArgumentException.class)
     public void moreThenTenElementCase() {
+
         sortingArray(first);
     }
 
