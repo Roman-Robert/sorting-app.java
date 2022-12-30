@@ -14,7 +14,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <packaging>jar</packaging>
+
     <dependencies>
+<!--Commons-->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
@@ -33,6 +36,14 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
-
+<!--Creating JAR-->
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.3.0</version>
+        </dependency>
     </dependencies>
+
+
+
 </project>  
