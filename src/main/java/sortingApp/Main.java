@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         BasicConfigurator.configure();
         logger.info("Starting application");
-        System.out.println(Sorting.sortingArray(Input.inputArray()));
+        System.out.println("Result: " + Sorting.sortingArray(Input.inputArray()));
         logger.info("Finishing application");
     }
 }
